@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <link rel="alternate" type="application/rss+xml" href="/notes.xml">
+    <link rel="shortcut icon" href="/assets/fav.png">
+    <link rel="shortcut icon" href="/assets/fav.svg">
+    <link href="/assets/new.css" rel="stylesheet" type="text/css">
+    {% if page.date %}
+      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+      <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
+      <meta content="article" property="og:type">
+      {% if page.image %}
+        <meta content="http://nefeli.dev/images/{{ page.image }}" property="og:image">
+      {% endif %}
+      <title>{{ page.title }} - {{ site.title }}</title>
+    {% else %}
+      <title>{{ site.title }}</title>
+      <meta content="{{ site.description }}" name="description">
+      <meta content="blog" property="og:type">
+    {% endif %}
+  </head>
+  <body>
+    <header>
+      <h1 class="h1">
+        {{ page.title }}<span class="blink">|</span>
+      </h1>
+      {% if page.date %}<small>{{ page.date | date_to_string }}</small><br>{% endif %}
+      {% if page.path != 'index.html' and page.path != 'zh-TW/index.html' %}
+        <small><a href="/"> $ cd ~</a></small>
+      {% endif %}
+    </header>
+    <main>
+      {% if page.date %}
+        <article>
+          {{ content }}
+        </article>
+        <!--div class="pagination">
+          {% if page.previous %}
+            <div><a href="{{ page.previous.url }}">
+              Prev: {{ page.previous.title }}
+            </a></div>
+          {% endif %}
+          {% if page.next %}
+            <div><a href="{{ page.next.url }}">
+              Next: {{ page.next.title }}
+            </a></div>
+          {% endif %}
+        </div-->
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </main>
+  </body>
+</html>
