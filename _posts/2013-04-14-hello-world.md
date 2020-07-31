@@ -8,7 +8,7 @@ feature: 1
 Hello everyone!
 I'm just setting up my blog!
 
-`python
+```python
 print("hello world")
-`
+```
 Thanks for visiting! Come back soon!
