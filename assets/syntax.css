@@ -3,10 +3,7 @@
   overflow: hidden;
   position: relative;
   margin: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
+
 }
 
 .lineno {
