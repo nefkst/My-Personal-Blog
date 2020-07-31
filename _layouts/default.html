@@ -10,10 +10,10 @@
     <link href="/assets/syntax.css" rel="stylesheet" type="text/css">
     <meta content="http://nefeli.dev/images/og.png" property="og:image">
     {% if page.date %}
+      <title>{{ page.title }} - {{ site.title }}</title>
       <meta content="{{ site.url }}{{ page.url }}" property="og:url">
       <meta content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" name="description">
       <meta content="article" property="og:type">
-      <title>{{ page.title }} - {{ site.title }}</title>
     {% else %}
       <title>{{ site.title }}</title>
       <meta content="{{ site.description }}" name="description">
