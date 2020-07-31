@@ -13,3 +13,6 @@ images/
 ```
 
 All other directories and files are MIT Licensed (where applicable).
+
+## Credits
+Huge thanks to @muan for sharing the source code of her website. This blog is based off of her site.
