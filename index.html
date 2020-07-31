@@ -1,0 +1,25 @@
+---
+title: Hey, this is Nefeli.
+layout: default
+---
+
+<ul class="terminal">
+  <li>I currently work at <a href="https://github.com/">Makerlab</a> as a Mentor.</li>
+  <li>I cofounded <a href="https://www.elemedu.com/">Elemedu</a>, a platform for sharing k-12 lesson plans and resources.</li>
+  <li>Check out my open source work on <a href="https://github.com/nefkst" rel="me">GitHub</a>.</li>
+  <li>I'm on <a href="https://twitter.com/nefelitamtiriri" rel="me">Twitter</a>.</li>
+</ul>
+
+<h2 class="text">Posts <span class="smol"><a href="/feed.xml">[feed]</a></span></h2>
+<ul aria-label="posts">
+{% assign posts = site.posts | where: "feature", 1 %}
+{% for post in posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date_to_string }}</time></li>
+{% endfor %}
+</ul>
+
+{% assign note = site.data.notes[0] %}
+<div class="note">
+  <div class="note-heading">Latest note # {{ note.date | date: "%b %d, %Y" }}</div>
+  {{ note.content | markdownify }}
+</div>
