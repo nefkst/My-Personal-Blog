@@ -1,8 +1,8 @@
-title:            nefeli
-description:      who is nefeli
+title:            Nefeli Kostakopoulou | Νεφέλη Κωστακοπούλου
+description:      This is the personal blog of Nefeli Kostakopoulou. Thoughts and posts about STEM and Education...
 url:              https://nefeli.dev
 permalink:        pretty
-timezone:         America/New_York
+timezone:         Europe/Athens
 sass:
   sass_dir: assets
   style: :compressed
