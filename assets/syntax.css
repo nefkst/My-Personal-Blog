@@ -27,7 +27,7 @@ code {
 
 pre code {
   word-wrap: initial;
-  background: transparent;
+  background: #f0f0f0;
 }
 
 .hll { background-color: #ffffcc }
