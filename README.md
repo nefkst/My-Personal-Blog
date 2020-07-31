@@ -1,6 +1,6 @@
 # A blog
 
-This is where Nefeli Kostakopoulou writes her stuff and thoughts. See more [here](https://github.com/nefkst).
+This is where I write my stuff and thoughts. See more [here](https://github.com/nefkst).
 
 ## License
 
