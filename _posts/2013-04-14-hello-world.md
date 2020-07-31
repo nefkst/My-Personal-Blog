@@ -5,6 +5,8 @@ date: 2020-07-31
 feature: 1
 ---
 
-<span class="muted"># This post is not yet finished.</span>
+# Hello everyone! I'm just setting up my blog!
 
-Hello world...
+```python
+print("hello world")
+```
