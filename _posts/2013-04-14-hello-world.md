@@ -6,9 +6,9 @@ feature: 1
 ---
 
 # Hello everyone!
-## I'm just setting up my blog!
+I'm just setting up my blog!
 
 ```python
 print("hello world")
 ```
-Thanks for visiting! Come back soon!
+**Thanks for visiting!** Come back soon!
