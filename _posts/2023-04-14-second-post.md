@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Hello world
-date: 2020-07-31
+title: Hello again!
+date: 3-04-14
 feature: 1
 ---
 
 Hello everyone!
-I'm just setting up my blog!
+I'm a primary school teacher working in a public school!
+
+I am currently setting up my profile in [elemedu.com](https://elemedu.com/)!
 
 ```python
 print("hello world")
