@@ -8,4 +8,5 @@ feature: 1
 Hello everyone!
 I'm a primary school teacher working in a public school!
 
-I am currently setting up my profile in [elemedu.com](https://elemedu.com/)!
+I am currently setting up my profile in [elemedu.com](https://elemedu.com/) with educational resources for greek teachers!
+Check this out here: [elemedu.com/nefeli](https://elemedu.com/nefeli).
